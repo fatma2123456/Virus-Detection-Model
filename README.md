@@ -57,3 +57,12 @@ The **Virus Dataset** consists of **16207 images** across **14 virus classes**, 
 - **Challenges**: Noisy, blurry images, varying magnifications 🔍
 
 ---
+## 🖼️ Visualization: A Window into the Invisible World  
+
+### Why Visualization? 🌟  
+Visualization transforms raw data into a story. It helps us explore the dataset, debug models, and interpret predictions. From **heatmaps** that reveal model attention to **class distributions** that highlight imbalances, visualization is the bridge between data and understanding.
+| Folder                | Befor shuffling                                                                                      |  After shuffling  |
+|----------------------|-------------------------------------------------------------------------------------------|--------------------------------|
+| **Train**           | ![Normal Class](https://github.com/fatma2123456/Virus-Detection-Model/blob/main/images/data/Train.png)  |![Normal Class](https://github.com/fatma2123456/Virus-Detection-Model/blob/main/images/data/After%20Spliting%20Train.png) |
+| **Test** | ![Pneumonia Class](https://github.com/fatma2123456/Virus-Detection-Model/blob/main/images/data/Test.png) |![Pneumonia Class](https://github.com/fatma2123456/Virus-Detection-Model/blob/main/images/data/Test%20Set.png) |
+| **Validation**        | ![COVID-19 Class](https://github.com/fatma2123456/Virus-Detection-Model/blob/main/images/data/Validation.png)      | ![Pneumonia Class](https://github.com/fatma2123456/Virus-Detection-Model/blob/main/images/data/Validton%20Set.png)|
